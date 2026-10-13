@@ -1,0 +1,24 @@
+{
+  "name": "drive-doc-generator-api",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Self-hosted async document generation API for Drive Doc Generator",
+  "main": "src/server.js",
+  "engines": { "node": ">=20" },
+  "scripts": { "start": "node src/server.js", "worker": "node src/worker.js" },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "better-sqlite3": "^11.8.1",
+    "docxtemplater": "^3.63.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "googleapis": "^144.0.0",
+    "helmet": "^8.0.0",
+    "jszip": "^3.10.1",
+    "pino": "^9.6.0",
+    "pino-http": "^10.4.0",
+    "pizzip": "^3.1.7",
+    "xlsx-populate": "^1.21.0",
+    "zod": "^3.24.1"
+  }
+}
